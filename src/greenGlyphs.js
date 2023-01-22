@@ -7,7 +7,7 @@ the configuration settings.  Regions are indicated by x1, y1, x2, y2 of the boun
 box for the proposed fill area (proportional.
 */
 
-const greenGlyphs = {
+export const greenGlyphs = {
   a: {
     embed: [
       // glyph info for zero regions
@@ -37,7 +37,7 @@ const greenGlyphs = {
     embed: [{ glyph: "BA.png" }],
   },
   be: {
-    embed: [{ glyph: "BE.png" }],
+    embed: [{ glyph: "BE.png" }, { glyph: "BE1.png" }],
   },
   bi: {
     embed: [{ glyph: "BI.png" }],
@@ -47,13 +47,16 @@ const greenGlyphs = {
   },
   bu: {
     embed: [{ glyph: "BU.png" }],
-  },  
+  },
   ba: {
     embed: [{ glyph: "BA.png" }],
   },
   c: {
     embed: [{ glyph: "C.png" }],
   },
+  ca: {
+    embed: [{ glyph: "CA.png" }, { glyph: "CA1.png" }],
+  },  
   ce: {
     embed: [{ glyph: "CE.png" }],
   },
@@ -61,11 +64,11 @@ const greenGlyphs = {
     embed: [{ glyph: "CI.png" }],
   },
   co: {
-    embed: [{ glyph: "CO.png" }],
+    embed: [{ glyph: "CO.png" }, { glyph: "CO1.png" }],
   },
   cu: {
     embed: [{ glyph: "CU.png" }],
-  },   
+  },
   d: {
     embed: [{ glyph: "D.png" }],
   },
@@ -76,31 +79,34 @@ const greenGlyphs = {
     embed: [{ glyph: "DE.png" }],
   },
   di: {
-    embed: [{ glyph: "DI.png" }],
+    embed: [{ glyph: "DI.png" }, { glyph: "DI1.png" }],
   },
   do: {
-    embed: [{ glyph: "DO.png" }],
+    embed: [{ glyph: "DO.png" }, { glyph: "DO1.png" }],
   },
   du: {
     embed: [{ glyph: "DU.png" }],
   },
-  e: { 
+  e: {
     embed: [{ glyph: "E.png" }],
   },
+  ee: {
+    embed: [{ glyph: "EE.png" }],
+  },  
   f: {
     embed: [{ glyph: "F.png" }],
   },
   fa: {
-    embed: [{ glyph: "FA.png" }],
+    embed: [{ glyph: "FA.png" }, { glyph: "FA1.png" }],
   },
   fe: {
     embed: [{ glyph: "FE.png" }],
   },
   fi: {
-    embed: [{ glyph: "FI.png" }],
+    embed: [{ glyph: "FI.png" }, { glyph: "FI1.png" }],
   },
   fo: {
-    embed: [{ glyph: "FO.png" }],
+    embed: [{ glyph: "FO.png" }, { glyph: "FO1.png" }],
   },
   fu: {
     embed: [{ glyph: "FU.png" }],
@@ -109,7 +115,7 @@ const greenGlyphs = {
     embed: [{ glyph: "G.png" }],
   },
   ga: {
-    embed: [{ glyph: "GA.png" }],
+    embed: [{ glyph: "GA.png" }, { glyph: "GA1.png" }],
   },
   ge: {
     embed: [{ glyph: "GE.png" }],
@@ -118,16 +124,16 @@ const greenGlyphs = {
     embed: [{ glyph: "GI.png" }],
   },
   go: {
-    embed: [{ glyph: "GO.png" }],
+    embed: [{ glyph: "GO.png" }, { glyph: "GO1.png" }],
   },
   gu: {
     embed: [{ glyph: "GU.png" }],
   },
-  h: { 
+  h: {
     embed: [{ glyph: "H.png" }],
   },
   ha: {
-    embed: [{ glyph: "HA.png" }],
+    embed: [{ glyph: "HA0.png" }],
   },
   he: {
     embed: [{ glyph: "HE.png" }],
@@ -136,7 +142,7 @@ const greenGlyphs = {
     embed: [{ glyph: "HI.png" }],
   },
   ho: {
-    embed: [{ glyph: "HO.png" }],
+    embed: [{ glyph: "HO0.png" }, { glyph: "HO1.png" }],
   },
   hu: {
     embed: [{ glyph: "HU.png" }],
@@ -145,25 +151,25 @@ const greenGlyphs = {
     embed: [{ glyph: "I.png" }],
   },
   ja: {
-    embed: [{ glyph: "JA.png" }],
+    embed: [{ glyph: "JA0.png" }, { glyph: "JA1.png" }],
   },
   je: {
     embed: [{ glyph: "JE.png" }],
   },
   ji: {
-    embed: [{ glyph: "JI.png" }],
+    embed: [{ glyph: "JI0.png" }],
   },
   jo: {
-    embed: [{ glyph: "JO.png" }],
+    embed: [{ glyph: "JO.png" },{ glyph: "JO1.png" }],
   },
   ju: {
-    embed: [{ glyph: "JU.png" }],
-  },   
+    embed: [{ glyph: "JU.png" },{ glyph: "JU0.png" }],
+  },
   k: {
     embed: [{ glyph: "K.png" }],
   },
   ka: {
-    embed: [{ glyph: "KA.png" }],
+    embed: [{ glyph: "KA1.png" }],
   },
   ke: {
     embed: [{ glyph: "KE.png" }],
@@ -172,11 +178,11 @@ const greenGlyphs = {
     embed: [{ glyph: "KI.png" }],
   },
   ko: {
-    embed: [{ glyph: "KO.png" }],
+    embed: [{ glyph: "KO0.png" },{ glyph: "KO1.png" }],
   },
   ku: {
-    embed: [{ glyph: "KU.png" }],
-  },  
+    embed: [{ glyph: "KU0.png" }, { glyph: "KU1.png" }],
+  },
   l: {
     embed: [{ glyph: "L.png" }],
   },
@@ -194,7 +200,7 @@ const greenGlyphs = {
   },
   lu: {
     embed: [{ glyph: "LU.png" }],
-  },      
+  },
   m: {
     embed: [{ glyph: "M.png" }],
   },
@@ -212,25 +218,25 @@ const greenGlyphs = {
   },
   mu: {
     embed: [{ glyph: "MU.png" }],
-  },   
+  },
   n: {
-    embed: [{ glyph: "N.png" }],
+    embed: [{ glyph: "N.png" }, { glyph: "N0.png" }, { glyph: "N1.png" }],
   },
   na: {
     embed: [{ glyph: "NA.png" }],
   },
   ne: {
-    embed: [{ glyph: "NE.png" }],
+    embed: [{ glyph: "NE.png" }, { glyph: "NE1.png" }],
   },
   ni: {
-    embed: [{ glyph: "NI.png" }],
+    embed: [{ glyph: "NI.png" }, { glyph: "NI0.png" }],
   },
   no: {
-    embed: [{ glyph: "NO.png" }],
+    embed: [{ glyph: "NO.png" }, { glyph: "NO0.png" }],
   },
   nu: {
     embed: [{ glyph: "NU.png" }],
-  },   
+  },
   o: {
     embed: [{ glyph: "O.png" }],
   },
@@ -244,14 +250,14 @@ const greenGlyphs = {
     embed: [{ glyph: "PE.png" }],
   },
   pi: {
-    embed: [{ glyph: "PI.png" }],
+    embed: [{ glyph: "PI.png" },  {glyph: "PI1.png" }],
   },
   po: {
-    embed: [{ glyph: "PO.png" }],
+    embed: [{ glyph: "PO.png" }, { glyph: "PO1.png" }],
   },
   pu: {
-    embed: [{ glyph: "PU.png" }],
-  },        
+    embed: [{ glyph: "PU.png" }, { glyph: "PU1.png" }],
+  },
   q: {
     embed: [{ glyph: "Q.png" }],
   },
@@ -269,43 +275,43 @@ const greenGlyphs = {
   },
   qu: {
     embed: [{ glyph: "QU.png" }],
-  },     
+  },
   r: {
-    embed: [{ glyph: "R.png" }],
+    embed: [{ glyph: "R.png" }, { glyph: "R0.png" }],
   },
   ra: {
     embed: [{ glyph: "RA.png" }],
   },
   re: {
-    embed: [{ glyph: "RE.png" }],
+    embed: [{ glyph: "RE.png" }, { glyph: "RE0.png" }],
   },
   ri: {
     embed: [{ glyph: "RI.png" }],
   },
   ro: {
-    embed: [{ glyph: "RO.png" }],
+    embed: [{ glyph: "RO.png" }, { glyph: "RO0.png" }],
   },
   ru: {
     embed: [{ glyph: "RU.png" }],
   },
   s: {
-    embed: [{ glyph: "S.png" }],
+    embed: [{ glyph: "S.png" }, { glyph: "S0.png" }],
   },
   sa: {
-    embed: [{ glyph: "SA.png" }],
+    embed: [{ glyph: "SA.png" }, { glyph: "SA1.png" }],
   },
   se: {
-    embed: [{ glyph: "SE.png" }],
+    embed: [{ glyph: "SE1.png" }],
   },
   si: {
     embed: [{ glyph: "SI.png" }],
   },
   so: {
-    embed: [{ glyph: "SO.png" }],
+    embed: [{ glyph: "SO1.png" }],
   },
   su: {
     embed: [{ glyph: "SU.png" }],
-  },      
+  },
   t: {
     embed: [{ glyph: "T.png" }],
   },
@@ -323,7 +329,7 @@ const greenGlyphs = {
   },
   tu: {
     embed: [{ glyph: "TU.png" }],
-  },  
+  },
   u: {
     embed: [{ glyph: "U.png" }],
   },
@@ -340,11 +346,11 @@ const greenGlyphs = {
     embed: [{ glyph: "VI.png" }],
   },
   vo: {
-    embed: [{ glyph: "VO.png" }],
+    embed: [{ glyph: "VO.png" }, { glyph: "VO0.png" }],
   },
   vu: {
     embed: [{ glyph: "VU.png" }],
-  }, 
+  },
   w: {
     embed: [{ glyph: "W.png" }],
   },
@@ -358,11 +364,11 @@ const greenGlyphs = {
     embed: [{ glyph: "WI.png" }],
   },
   wo: {
-    embed: [{ glyph: "WO.png" }],
+    embed: [{ glyph: "WO.png" }, { glyph: "WO0.png" }],
   },
   wu: {
     embed: [{ glyph: "WU.png" }],
-  },     
+  },
   x: {
     embed: [{ glyph: "X.png" }],
   },
@@ -380,15 +386,15 @@ const greenGlyphs = {
   },
   xu: {
     embed: [{ glyph: "XU.png" }],
-  },    
+  },
   y: {
     embed: [{ glyph: "Y.png" }],
-  },  
+  },
   ya: {
     embed: [{ glyph: "YA.png" }],
   },
   ye: {
-    embed: [{ glyph: "YE.png" }],
+    embed: [{ glyph: "YE.png" }, { glyph: "YE1.png" }],
   },
   yi: {
     embed: [{ glyph: "YI.png" }],
@@ -398,23 +404,23 @@ const greenGlyphs = {
   },
   yu: {
     embed: [{ glyph: "YU.png" }],
-  },     
+  },
   z: {
     embed: [{ glyph: "Z.png" }],
   },
   za: {
-    embed: [{ glyph: "ZA.png" }],
+    embed: [{ glyph: "ZA0.png" }, { glyph: "ZA1.png" }],
   },
   ze: {
     embed: [{ glyph: "ZE.png" }],
   },
   zi: {
-    embed: [{ glyph: "ZI.png" }],
+    embed: [{ glyph: "ZI.png" }, { glyph: "ZI1.png" }],
   },
   zo: {
     embed: [{ glyph: "ZO.png" }],
   },
   zu: {
-    embed: [{ glyph: "ZU.png" }],
-  },                  
+    embed: [{ glyph: "ZU1.png" }],
+  },
 };
