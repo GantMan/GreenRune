@@ -33,5 +33,16 @@
 
 .main canvas {
   background-color: antiquewhite;
-  height: 85vh;
+  height: 80vh;
+}
+
+.rectangle {
+  border: 1px solid #FF0000;
+  position: absolute;
+}
+
+#regions {
+  position: absolute;
+  right: 10px;
+  height: 80px;
 }
